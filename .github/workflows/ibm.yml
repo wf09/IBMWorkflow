@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '15 20 * * *'
 
 jobs:
   ibm-cloud-restart:
@@ -37,4 +37,6 @@ jobs:
         IBM_APP_NAME: ${{ secrets.IBM_APP_NAME }}
       run: |
         cf restart $IBM_APP_NAME
-        
+         
+         
+         
