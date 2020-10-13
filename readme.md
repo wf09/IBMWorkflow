@@ -1,3 +1,9 @@
+【更新】
+## 由于IBM更改了使用政策，大部分使用v2fly应用程序的账户都被ban掉了，因此该项目不再更新
+![](https://ftp.fly97.cn/image/20200911201543.png)
+
+![](https://ftp.fly97.cn/image/20200911201816.png)
+
 本文简单介绍了Github Action的用法，并使用Gihub Action定时重启IBM cloud foundry容器。
 
 摘要：GitHub Actions是GitHub自家的持续集成及自动化工作流服务，它使用起来非常简单，只要在你的仓库根目录建立`.github/workflows`文件夹，将你的工作流配置(YML文件)放到这个目录下，就能启用GitHub Actions服务。
